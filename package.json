@@ -1,0 +1,27 @@
+{
+  "name": "pwmetrics-ci",
+  "version": "0.1.0",
+  "description": "Optimize Angular application",
+  "keywords": "Pwmetrics Perf Lighthouse",
+  "author": "Marc Laval",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlaval/pwmetrics-ci.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlaval/pwmetrics-ci/issues"
+  },
+  "homepage": "https://github.com/mlaval/pwmetrics-ci#readme",
+  "dependencies": {
+    "atob": "2.0.3",
+    "pwmetrics": "2.0.2",
+    "serve": "5.2.2"
+  },
+  "devDependencies": {
+    
+  }
+}
