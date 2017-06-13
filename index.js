@@ -29,7 +29,10 @@ promiseSerial(tasks)
     console.log(target);
     server.stop();
   })
-  .catch(console.error);
+  .catch(e => {
+    console.error(e);
+    process.exit(1);
+  });
 
 function promiseSerial(promises) {
   return promises.reduce((promise, func) =>
